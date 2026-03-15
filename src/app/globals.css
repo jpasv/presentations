@@ -24,6 +24,72 @@ body {
   font-family: var(--font-serif), 'Cormorant Garamond', Georgia, serif;
 }
 
+.holding-overline {
+  font-size: 0.75rem;
+  line-height: 1.2;
+  font-weight: 500;
+  letter-spacing: 0.25em;
+  text-transform: uppercase;
+  color: #c9a86c;
+  opacity: 0.78;
+}
+
+.holding-title-hero {
+  font-size: clamp(4.25rem, 7vw, 5.5rem);
+  line-height: 0.95;
+  letter-spacing: -0.045em;
+  font-weight: 300;
+}
+
+.holding-title-section {
+  font-size: clamp(2.75rem, 4vw, 3.5rem);
+  line-height: 1.04;
+  letter-spacing: -0.04em;
+  font-weight: 300;
+}
+
+.holding-title-feature {
+  font-size: clamp(2.25rem, 3vw, 2.5rem);
+  line-height: 1.08;
+  letter-spacing: -0.035em;
+  font-weight: 300;
+}
+
+.holding-title-card {
+  font-size: clamp(1.75rem, 2.4vw, 1.875rem);
+  line-height: 1.14;
+  letter-spacing: -0.03em;
+  font-weight: 300;
+}
+
+.holding-subtitle {
+  font-size: clamp(1.125rem, 1.8vw, 1.5rem);
+  line-height: 1.45;
+  font-weight: 300;
+  color: #9c9589;
+}
+
+.holding-body-lg {
+  font-size: 1.125rem;
+  line-height: 1.6;
+  font-weight: 300;
+  color: #ddd7cd;
+}
+
+.holding-body {
+  font-size: 1rem;
+  line-height: 1.6;
+  font-weight: 300;
+  color: #ddd7cd;
+}
+
+.holding-meta {
+  font-size: 0.875rem;
+  line-height: 1.5;
+  font-weight: 300;
+  color: #b7b0a4;
+}
+
 /* Gradient border utility */
 .border-gradient {
   position: relative;
