@@ -10,7 +10,7 @@ export function cn(...inputs: ClassValue[]) {
   return twMerge(clsx(inputs));
 }
 
-type SectionWidth = "standard" | "media" | "narrow";
+type SectionWidth = "standard" | "media" | "narrow" | "wide";
 type TitleVariant = "hero" | "section" | "feature" | "card";
 type TextTag = "div" | "h1" | "h2" | "h3" | "p" | "span";
 type DeckAssetKind = "image" | "video" | "iframe";
@@ -31,6 +31,7 @@ const SECTION_WIDTHS: Record<SectionWidth, string> = {
   standard: "max-w-[1440px]",
   media: "max-w-[1480px]",
   narrow: "max-w-[1280px]",
+  wide: "max-w-[1600px]",
 };
 
 const TITLE_VARIANTS: Record<TitleVariant, string> = {
